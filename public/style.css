@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zen Dots", cursive;
+  font-size: 1.6rem;
+}
+
+.calculator {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#display {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.numbers {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(0, 0%, 75%);
+}
+.operations {
+  width: 100px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(0, 0%, 50%);
+}
+.btn {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  box-shadow: inset 2px 3px 3px hsl(0, 0%, 25%);
+}
+.btn-double {
+  width: 200px;
+}
+.btn-clear {
+  background-color: hsl(234, 93%, 62%);
+}
+
+.btn-equals {
+  background-color: hsl(0, 100%, 65%);
+}
